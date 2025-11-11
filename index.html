@@ -17,24 +17,17 @@
     header {
       background-color: #ffb300;
       color: white;
-      text-align: center;
-      padding: 1.5rem;
+      padding: 1.5rem 2rem;
       font-size: 2rem;
       font-weight: bold;
       box-shadow: 0 3px 8px rgba(0,0,0,0.2);
-      position: relative;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between; /* texto a la izquierda, logo a la derecha */
     }
 
-    /* Logo grande del club en header */
     .logo-club {
-      position: absolute;
-      right: 20px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 60px; /* achicado de 80px a 60px */
+      width: 60px; /* tamaño proporcional */
       height: auto;
     }
 
@@ -82,7 +75,7 @@
     footer {
       background-color: #ffb300;
       color: white;
-      padding: 0.5rem 2rem; /* footer compacto */
+      padding: 0.5rem 2rem;
       font-weight: bold;
       box-shadow: 0 -3px 8px rgba(0,0,0,0.2);
       display: flex;
@@ -94,13 +87,12 @@
     footer img {
       width: 20px; /* escudo pequeño */
       height: auto;
-      margin-left: 10px; /* separación del texto */
     }
   </style>
 </head>
 <body>
   <header>
-    Revista Científica del Club ConCiencia
+    <span>Revista Científica del Club ConCiencia</span>
     <img src="logoclub.png" alt="Logo del Club" class="logo-club">
   </header>
 
