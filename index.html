@@ -22,6 +22,30 @@
       font-size: 2rem;
       font-weight: bold;
       box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Logo grande del club */
+    .logo-club {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 80px; /* ajustable */
+      height: auto;
+    }
+
+    /* Escudo pequeño */
+    .escudo {
+      position: absolute;
+      right: 120px; /* un poco más a la izquierda del logo */
+      top: 50%;
+      transform: translateY(-50%);
+      width: 50px; /* ajustable */
+      height: auto;
     }
 
     .bloques {
@@ -76,7 +100,11 @@
   </style>
 </head>
 <body>
-  <header>Revista Científica del Club ConCiencia</header>
+  <header>
+    Revista Científica del Club ConCiencia
+    <img src="escudoesc.png" alt="Escudo" class="escudo">
+    <img src="logoclub.png" alt="Logo del Club" class="logo-club">
+  </header>
 
   <div class="bloques">
     <a href="visitas.html" class="bloque">
