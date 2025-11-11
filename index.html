@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revista Científica</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .bloques {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 0;
+    }
+
+    .bloque {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 250px;
+      text-decoration: none;
+      color: #333;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .bloque:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .bloque img {
+      width: 100%;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .bloque p {
+      padding: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #f9f9f9;
+      border-radius: 0 0 15px 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Revista Científica
+  </header>
+
+  <div class="bloques">
+    <a href="visitas.html" class="bloque">
+      <img src="miniclub1.jpeg" alt="Mini Club">
+      <p>Mini Club</p>
+    </a>
+    <a href="saludmental.html" class="bloque">
+      <img src="saludmental.jpeg" alt="Salud Mental">
+      <p>Salud Mental</p>
+    </a>
+  </div>
+</body>
+</html>
