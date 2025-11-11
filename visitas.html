@@ -3,71 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visitas - Revista ConCiencia</title>
+  <title>Visitas - Club de Ciencias</title>
   <style>
     body {
       font-family: "Segoe UI", Arial, sans-serif;
+      text-align: center;
       background: linear-gradient(180deg, #ffcc66, #ff9966);
       margin: 0;
       padding: 0;
       color: #4a2600;
-      text-align: center;
     }
 
     header {
       background-color: #ffb84d;
       color: #4a2600;
-      padding: 25px 0;
+      padding: 20px 0;
       font-size: 26px;
       font-weight: bold;
       box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
-      position: relative;
-    }
-
-    .logo-derecha {
-      position: absolute;
-      right: 20px;
-      top: 10px;
-    }
-
-    .logo-derecha img {
-      height: 120px;
-      width: auto;
-    }
-
-    h1 {
-      margin: 10px 0 5px 0;
-      font-size: 34px;
-      letter-spacing: 1.5px;
-    }
-
-    h2 {
-      margin: 0;
-      font-size: 16px;
-      font-weight: normal;
-    }
-
-    main {
-      padding: 30px 15%;
-      text-align: justify;
-      font-size: 18px;
-      line-height: 1.6;
     }
 
     .galeria {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 20px;
-      margin-top: 25px;
+      gap: 15px;
+      margin: 30px;
     }
 
     .galeria img {
-      width: 280px;
-      height: 200px;
+      width: 250px;
+      height: 180px;
+      border-radius: 15px;
       object-fit: cover;
-      border-radius: 10px;
-      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
       transition: transform 0.3s ease;
     }
 
@@ -75,75 +44,50 @@
       transform: scale(1.05);
     }
 
-    footer {
-      background-color: rgba(255, 184, 77, 0.6);
-      padding: 10px 25px;
-      font-size: 12px;
-      color: #4a2600;
+    .descripcion {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+      font-size: 18px;
+      line-height: 1.5;
     }
 
-    footer img {
-      height: 40px;
-      display: block;
-      margin: 0 auto;
-      opacity: 0.9;
-    }
-
-    footer p {
-      margin-top: 5px;
-    }
-
-    .volver {
+    a.volver {
       display: inline-block;
-      margin-top: 25px;
-      background-color: #ff9933;
+      margin: 30px 0;
+      padding: 10px 20px;
+      background-color: #ff8000;
       color: white;
       text-decoration: none;
-      padding: 10px 25px;
-      border-radius: 20px;
+      border-radius: 10px;
       font-weight: bold;
-      transition: background 0.3s ease, transform 0.3s ease;
+      transition: background-color 0.3s;
     }
 
-    .volver:hover {
-      background-color: #ff8800;
-      transform: scale(1.05);
+    a.volver:hover {
+      background-color: #cc6600;
     }
   </style>
 </head>
 <body>
-  <header>
-    <div class="logo-derecha">
-      <img src="logoclub.png" alt="Logo del Club ConCiencia">
-    </div>
-    <h1>Visitas</h1>
-    <h2>Revista Científica - ConCiencia</h2>
-  </header>
+  <header>Visitas del Club</header>
 
-  <main>
-    <p>
-      Durante nuestras actividades, realizamos una visita al <strong>Colegio José María Paz</strong>, donde compartimos nuestras experiencias y proyectos con su comunidad educativa.  
-      La jornada fue muy enriquecedora, ya que no solo pudimos mostrar nuestras investigaciones, sino también motivar a nuevos estudiantes a involucrarse en la ciencia y la tecnología.  
-    </p>
-    <p>
-      Gracias a nuestra visita, ese colegio decidió <strong>formar su propio Club de Ciencias</strong>, inspirado en la participación y el entusiasmo de nuestros integrantes.  
-      Entre los proyectos que presentamos se destacan <strong>“GiraSol”</strong> y <strong>“Comedero Inteligente”</strong>, entre otros, los cuales se pueden ver en esta misma página.
-    </p>
+  <div class="descripcion">
+    Durante el último año, el Club de Ciencias Jorge Bosco Lescano visitó la escuela primaria <b>Jerónimo del Barco</b>, compartiendo con los más pequeños diversos proyectos desarrollados a lo largo del ciclo.  
+    Entre ellos se destacaron el <b>Girasol automático</b>, el <b>comedero inteligente</b> y otros inventos realizados por los integrantes del club.  
+    Además, los alumnos recibieron un cálido reconocimiento por su labor y compromiso con la ciencia y la educación técnica.
+  </div>
 
-    <div class="galeria">
-      <img src="minis3.jpg" alt="Visita al colegio José María Paz">
-      <img src="proyecto minis.jpg" alt="Presentación del proyecto GiraSol">
-      <img src="proyecto minis2.jpg" alt="Demostración del Comedero Inteligente">
-      <img src="reconocimiento minis.jpg" alt="Reconocimiento recibido por el club">
-      <img src="pines minis2.jpg" alt="Pines del Club ConCiencia">
-    </div>
+  <div class="galeria">
+    <img src="mini2.jpg" alt="Visita Mini Club 2">
+    <img src="proyecto minis.jpg" alt="Proyecto Mini Club">
+    <img src="proyecto minis2.jpg" alt="Proyecto Mini Club 2">
+    <img src="reconocimiento minis.jpg" alt="Reconocimiento Mini Club">
+  </div>
 
-    <a href="index.html" class="volver">⬅ Volver a inicio</a>
-  </main>
-
-  <footer>
-    <img src="escudoesc.png" alt="Escudo del Colegio Jorge Vosco Lescano">
-    <p>© 2025 Revista Científica ConCiencia – Colegio Jorge Vosco Lescano</p>
-  </footer>
+  <a href="index.html" class="volver">⬅ Volver al inicio</a>
 </body>
 </html>
