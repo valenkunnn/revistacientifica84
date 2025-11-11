@@ -3,74 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Revista Científica</title>
+  <title>Revista Científica - Club Jorge Bosco Lescano</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Segoe UI", Arial, sans-serif;
       text-align: center;
-      background-color: #f4f4f4;
+      background: linear-gradient(180deg, #ffcc66, #ff9966);
       margin: 0;
       padding: 0;
     }
 
     header {
-      background-color: #003366;
-      color: white;
-      padding: 20px 0;
-      font-size: 24px;
+      background-color: #ffb84d;
+      color: #4a2600;
+      padding: 25px 0;
+      font-size: 28px;
       font-weight: bold;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     }
 
-    .bloques {
+    .contenedor {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      gap: 20px;
-      padding: 40px 0;
+      align-items: center;
+      height: 80vh;
     }
 
-    .bloque {
-      background-color: white;
-      border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      width: 250px;
+    .boton {
       text-decoration: none;
-      color: #333;
+      color: #fff;
+      font-size: 22px;
+      background-color: #ff9933;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
+      width: 280px;
     }
 
-    .bloque:hover {
+    .boton:hover {
       transform: scale(1.05);
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
     }
 
-    .bloque img {
+    .boton img {
       width: 100%;
-      border-radius: 15px 15px 0 0;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 3px solid rgba(255, 255, 255, 0.6);
     }
 
-    .bloque p {
+    .boton p {
+      background-color: #ff8000;
+      margin: 0;
       padding: 15px;
-      font-size: 18px;
       font-weight: bold;
-      background-color: #f9f9f9;
-      border-radius: 0 0 15px 15px;
+      letter-spacing: 1px;
     }
   </style>
 </head>
 <body>
   <header>
-    Revista Científica
+    Revista Científica - Club de Ciencias Jorge Bosco Lescano
   </header>
 
-  <div class="bloques">
-    <a href="visitas.html" class="bloque">
-      <img src="miniclub1.jpeg" alt="Mini Club">
-      <p>Mini Club</p>
-    </a>
-    <a href="saludmental.html" class="bloque">
-      <img src="saludmental.jpeg" alt="Salud Mental">
-      <p>Salud Mental</p>
+  <div class="contenedor">
+    <a href="visitas.html" class="boton">
+      <img src="minis3.jpg" alt="Visitas">
+      <p>Visitas</p>
     </a>
   </div>
 </body>
