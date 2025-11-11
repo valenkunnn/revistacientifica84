@@ -9,7 +9,7 @@
       font-family: 'Poppins', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #fff9c4; /* amarillo claro */
+      background-color: #fffde7; /* amarillo clarito */
       color: #3e2723;
       min-height: 100vh;
     }
@@ -35,16 +35,6 @@
       top: 50%;
       transform: translateY(-50%);
       width: 80px; /* ajustable */
-      height: auto;
-    }
-
-    /* Escudo pequeño */
-    .escudo {
-      position: absolute;
-      right: 120px; /* un poco más a la izquierda del logo */
-      top: 50%;
-      transform: translateY(-50%);
-      width: 50px; /* ajustable */
       height: auto;
     }
 
@@ -96,13 +86,21 @@
       padding: 1rem;
       font-weight: bold;
       box-shadow: 0 -3px 8px rgba(0,0,0,0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    footer img {
+      width: 40px; /* tamaño del escudo */
+      height: auto;
     }
   </style>
 </head>
 <body>
   <header>
     Revista Científica del Club ConCiencia
-    <img src="escudoesc.png" alt="Escudo" class="escudo">
     <img src="logoclub.png" alt="Logo del Club" class="logo-club">
   </header>
 
@@ -119,7 +117,9 @@
   </div>
 
   <footer>
-    Club ConCiencia © 2025
+    Club ConCiencia 2025, todos los derechos reservados
+    <img src="escudoesc.png" alt="Escudo del Club">
   </footer>
 </body>
 </html>
+
