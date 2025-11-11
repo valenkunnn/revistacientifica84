@@ -3,40 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visitas - Club Con Ciencia</title>
+  <title>Visita del Club ConCiencia</title>
   <style>
     body {
-      font-family: "Segoe UI", Arial, sans-serif;
-      text-align: center;
-      background: linear-gradient(180deg, #ffcc66, #ff9966);
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      color: #4a2600;
+      background-color: #fff8e1;
+      color: #333;
     }
 
     header {
-      background-color: #ffb84d;
-      color: #4a2600;
-      padding: 20px 0;
-      font-size: 26px;
+      background-color: #ffc107;
+      color: #333;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 1.8rem;
       font-weight: bold;
-      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .contenido {
+      text-align: center;
+      padding: 2rem;
+      background-color: #fff3cd;
+      border-top: 4px solid #ffeb3b;
+    }
+
+    .contenido p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .galeria {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
+      flex-wrap: wrap;
       gap: 15px;
-      margin: 30px;
+      padding: 20px;
     }
 
     .galeria img {
       width: 250px;
-      height: 180px;
-      border-radius: 15px;
+      height: 250px;
       object-fit: cover;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
       transition: transform 0.3s ease;
     }
 
@@ -44,52 +58,55 @@
       transform: scale(1.05);
     }
 
-    .descripcion {
-      max-width: 850px;
-      margin: 20px auto;
-      background-color: #ffeb99; /* Fondo amarillo suave */
-      padding: 25px;
-      border-radius: 15px;
-      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-      font-size: 18px;
-      line-height: 1.6;
-      color: #4a2600;
+    footer {
+      background-color: #ffc107;
+      color: #333;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-weight: bold;
     }
 
-    a.volver {
+    a.boton-volver {
       display: inline-block;
-      margin: 30px 0;
-      padding: 10px 20px;
-      background-color: #ff8000;
+      background-color: #28a745;
       color: white;
-      text-decoration: none;
+      padding: 10px 20px;
       border-radius: 10px;
+      text-decoration: none;
       font-weight: bold;
+      margin-top: 1rem;
       transition: background-color 0.3s;
     }
 
-    a.volver:hover {
-      background-color: #cc6600;
+    a.boton-volver:hover {
+      background-color: #218838;
     }
   </style>
 </head>
 <body>
-  <header>Visitas - Club Con Ciencia</header>
+  <header>Visita del Club ConCiencia</header>
 
-  <div class="descripcion">
-    El proyecto <b>Visitas</b> representa una de las experiencias más inspiradoras del Club <b>Con Ciencia</b>.  
-    Durante la visita a la escuela primaria <b>Jerónimo del Barco</b>, los integrantes del club compartieron con entusiasmo sus proyectos y conocimientos con los más pequeños.  
-    La jornada fue tan enriquecedora que los alumnos de la escuela decidieron crear su propio club de ciencias, continuando así la curiosidad y el espíritu científico que nos une.
+  <div class="contenido">
+    <p>
+      El Club ConCiencia realizó una visita a la escuela primaria <strong>Jerónimo Luis de Cabrera</strong>,
+      donde compartimos actividades y experiencias con los estudiantes que, inspirados por nuestra propuesta,
+      decidieron formar su propio club de ciencia.
+    </p>
+
+    <div class="galeria">
+      <img src="minis3.jpg" alt="Visita a Jerónimo Luis de Cabrera">
+      <img src="mini2.jpg" alt="Intercambio entre estudiantes">
+      <img src="proyecto_minis.jpg" alt="Charlas del Club ConCiencia">
+      <img src="proyecto_minis2.jpg" alt="Alumnos participando">
+      <img src="reconocimiento_minis.jpg" alt="Reconocimiento al Club ConCiencia">
+    </div>
+
+    <a href="index.html" class="boton-volver">Volver al inicio</a>
   </div>
 
-  <div class="galeria">
-    <img src="minis3.jpg" alt="Club Con Ciencia visita Jerónimo del Barco">
-    <img src="proyecto minis2.jpg" alt="Demostraciones del Club Con Ciencia">
-    <img src="proyecto minis.jpg" alt="Proyectos del Club Con Ciencia">
-    <img src="pines minis2.jpg" alt="Intercambio científico escolar">
-    <img src="reconocimiento minis.jpg" alt="Reconocimiento al Club Con Ciencia">
-  </div>
-
-  <a href="index.html" class="volver">⬅ Volver al inicio</a>
+  <footer>
+    Club ConCiencia © 2025
+  </footer>
 </body>
 </html>
