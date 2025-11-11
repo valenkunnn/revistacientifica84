@@ -6,119 +6,83 @@
   <title>Proyecto SanaMente - Club ConCiencia</title>
   <style>
     body {
-      font-family: 'Poppins', sans-serif;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #fff8b0, #ffe16b);
+      color: #333;
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #ffb74d, #fff176);
-      color: #3e2723;
-      min-height: 100vh;
     }
-
     header {
-      background-color: #ff9800;
-      color: white;
+      background-color: #ffd54f;
+      padding: 20px;
       text-align: center;
-      padding: 1.5rem;
-      font-size: 2rem;
+      font-size: 2em;
       font-weight: bold;
-      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+      color: #444;
     }
-
-    .contenido {
-      text-align: center;
-      padding: 2rem;
-      margin: 2rem auto;
-      width: 90%;
-      max-width: 1000px;
-      background-color: rgba(255, 255, 255, 0.2);
-      border-radius: 20px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
-
-    .contenido p {
-      font-size: 1.2rem;
-      color: #4e342e;
-      margin-bottom: 2rem;
-      background-color: rgba(255, 235, 59, 0.8);
-      padding: 1rem;
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 250px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    p {
+      background-color: #fff59d;
+      padding: 15px;
       border-radius: 10px;
       line-height: 1.6;
     }
-
-    .galeria {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .galeria img {
-      width: 230px;
-      height: 230px;
-      object-fit: cover;
-      border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .galeria img:hover {
-      transform: scale(1.05);
-      box-shadow: 0 6px 15px rgba(0,0,0,0.4);
-    }
-
-    a.boton-volver {
+    a.volver {
       display: inline-block;
-      background-color: #008f39;
-      color: white;
-      padding: 12px 25px;
-      border-radius: 12px;
+      margin-top: 20px;
       text-decoration: none;
-      font-weight: bold;
-      margin-top: 1.5rem;
-      transition: background-color 0.3s, transform 0.2s;
-    }
-
-    a.boton-volver:hover {
-      background-color: #006b2e;
-      transform: scale(1.05);
-    }
-
-    footer {
-      background-color: #ff9800;
       color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 3rem;
-      font-weight: bold;
-      box-shadow: 0 -3px 8px rgba(0,0,0,0.2);
+      background-color: #fbc02d;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+    a.volver:hover {
+      background-color: #f9a825;
     }
   </style>
 </head>
 <body>
   <header>Proyecto SanaMente</header>
-
-  <div class="contenido">
+  <div class="container">
     <p>
-      El proyecto <strong>SanaMente</strong> fue impulsado por el Club <strong>ConCiencia</strong> con el apoyo de 
-      <img src="charlas%20salud%20mental1.jpg" alt="Lic. Mara López Blanco acompañando la charla">
-      Visitamos cada curso del colegio para brindar charlas sobre <strong>trastornos de la conducta alimentaria, bullying y ansiedad</strong>, 
-      promoviendo el diálogo y la concientización.  
-      Además, entregamos formularios anónimos para que los alumnos pudieran expresar sus experiencias y sugerencias.  
-      Con esa información, elaboramos un trabajo de investigación que servirá como base para planificar nuevas charlas 
-      sobre otros temas de salud mental y bienestar escolar.
+      Este proyecto está apoyado por la Lic. en Psicología <strong>Mara López Blanco</strong>.
+      Llevamos a cada curso del colegio charlas sobre <strong>trastornos de la conducta alimentaria (TCA)</strong>,
+      <strong>bullying</strong> y <strong>ansiedad</strong>. También dejamos papeles para que los alumnos los completen de forma anónima,
+      con el fin de comprender mejor sus inquietudes.  
+      Además, estamos desarrollando un trabajo de investigación para planificar futuras charlas sobre más temas
+      vinculados al bienestar emocional y la salud mental en la comunidad educativa.
     </p>
-
-    <div class="galeria">
-      <img src="charlas saludmental.jpg" alt="Charla del proyecto SanaMente">
-      <img src="charlas salud mental2.jpg" alt="Charla grupal sobre ansiedad">
-      <img src="charlas salud mental1.jpg" alt="Lic. Mara López Blanco acompañando la charla">
+    <div class="gallery">
+      <img src="charlasanamente1.jpg" alt="Portada del proyecto SanaMente">
+      <img src="charlasanamente.jpg" alt="Charla sobre salud mental">
+      <img src="charlasanamente2.jpg" alt="Actividad grupal sobre bienestar">
+      <img src="charlasanamente3.jpg" alt="Equipo del club ConCiencia en la charla">
     </div>
-
-    <a href="index.html" class="boton-volver">Volver al inicio</a>
+    <a class="volver" href="index.html">⬅ Volver al inicio</a>
   </div>
-
-  <footer>
-    Club ConCiencia © 2025
-  </footer>
 </body>
 </html>
