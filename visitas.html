@@ -6,35 +6,42 @@
   <title>Visita del Club ConCiencia</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Poppins', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #fff8e1;
+      background: linear-gradient(135deg, #ffa500, #fff176);
       color: #333;
     }
 
     header {
-      background-color: #ffc107;
-      color: #333;
+      background-color: #ffb300;
+      color: white;
       text-align: center;
       padding: 1.5rem;
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-weight: bold;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
     }
 
     .contenido {
       text-align: center;
       padding: 2rem;
-      background-color: #fff3cd;
-      border-top: 4px solid #ffeb3b;
+      background-color: rgba(255, 255, 255, 0.3);
+      margin: 2rem auto;
+      width: 90%;
+      max-width: 900px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     }
 
     .contenido p {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
+      color: #4e342e;
       margin-bottom: 2rem;
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
+      background-color: rgba(255, 235, 59, 0.8);
+      padding: 1rem;
+      border-radius: 10px;
+      line-height: 1.6;
     }
 
     .galeria {
@@ -42,45 +49,46 @@
       justify-content: center;
       flex-wrap: wrap;
       gap: 15px;
-      padding: 20px;
     }
 
     .galeria img {
-      width: 250px;
-      height: 250px;
+      width: 240px;
+      height: 240px;
       object-fit: cover;
       border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      transition: transform 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .galeria img:hover {
       transform: scale(1.05);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.4);
     }
 
     footer {
-      background-color: #ffc107;
-      color: #333;
+      background-color: #ffb300;
+      color: white;
       text-align: center;
       padding: 1rem;
-      margin-top: 2rem;
+      margin-top: 3rem;
       font-weight: bold;
     }
 
     a.boton-volver {
       display: inline-block;
-      background-color: #28a745;
+      background-color: #008f39;
       color: white;
-      padding: 10px 20px;
-      border-radius: 10px;
+      padding: 12px 22px;
+      border-radius: 12px;
       text-decoration: none;
       font-weight: bold;
-      margin-top: 1rem;
-      transition: background-color 0.3s;
+      margin-top: 1.5rem;
+      transition: background-color 0.3s, transform 0.2s;
     }
 
     a.boton-volver:hover {
-      background-color: #218838;
+      background-color: #006b2e;
+      transform: scale(1.05);
     }
   </style>
 </head>
@@ -89,17 +97,18 @@
 
   <div class="contenido">
     <p>
-      El Club <strong>ConCiencia</strong> realizó una visita a la escuela primaria <strong>Jerónimo del Barco</strong>,
-      donde compartimos actividades, charlas y demostraciones de proyectos con los estudiantes.  
-      Gracias al entusiasmo generado, los alumnos de la escuela decidieron formar su propio club de ciencia.
+      El Club <strong>ConCiencia</strong> realizó una hermosa visita a la escuela primaria 
+      <strong>Jerónimo del Barco</strong>, donde compartimos experiencias, charlas y demostraciones 
+      de proyectos como el girasol automático y el comedero inteligente.  
+      Gracias al entusiasmo de los estudiantes, ¡decidieron crear su propio club de ciencia!
     </p>
 
     <div class="galeria">
       <img src="minis3.jpg" alt="Visita a Jerónimo del Barco">
-      <img src="mini2.jpg" alt="Intercambio entre estudiantes">
-      <img src="proyecto_minis.jpg" alt="Charlas del Club ConCiencia">
-      <img src="proyecto_minis2.jpg" alt="Alumnos participando">
-      <img src="reconocimiento_minis.jpg" alt="Reconocimiento al Club ConCiencia">
+      <img src="pines mini2.jpg" alt="Intercambio entre estudiantes">
+      <img src="proyecto minis.jpg" alt="Charlas del Club ConCiencia">
+      <img src="proyecto minis2.jpg" alt="Alumnos participando">
+      <img src="reconocimiento minis.jpg" alt="Reconocimiento al Club ConCiencia">
     </div>
 
     <a href="index.html" class="boton-volver">Volver al inicio</a>
@@ -110,4 +119,3 @@
   </footer>
 </body>
 </html>
-
