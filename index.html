@@ -85,13 +85,21 @@
     }
 
     footer {
-      margin-top: 30px;
-      padding-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(255, 184, 77, 0.6);
+      padding: 10px 25px;
+      font-size: 12px;
+      color: #4a2600;
     }
 
     footer img {
-      width: 160px;
-      opacity: 0.9;
+      height: 40px;
+    }
+
+    footer .logo-club {
+      height: 60px;
     }
   </style>
 </head>
@@ -99,7 +107,7 @@
   <header>
     <div class="logos">
       <img src="logoclub.png" alt="Logo del Club ConCiencia">
-      <img src="escudos.png" alt="Escudo del Colegio Jorge Vosco Lescano">
+      <img src="escudoesc.png" alt="Escudo del Colegio Jorge Vosco Lescano">
     </div>
     <h1>Revista Científica - ConCiencia</h1>
     <h2>Club de Ciencias del Colegio Jorge Vosco Lescano</h2>
@@ -113,7 +121,11 @@
   </div>
 
   <footer>
-    <img src="escudos.png" alt="Escudo del Colegio Jorge Vosco Lescano">
+    <div>
+      <img src="escudoesc.png" alt="Escudo del Colegio Jorge Vosco Lescano">
+      <p>© 2025 Revista Científica ConCiencia – Colegio Jorge Vosco Lescano</p>
+    </div>
+    <img src="logoclub.png" alt="Logo del Club ConCiencia" class="logo-club">
   </footer>
 </body>
 </html>
