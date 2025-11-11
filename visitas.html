@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visitas - Club de Ciencias</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      text-align: center;
+      background: linear-gradient(180deg, #ffcc66, #ff9966);
+      margin: 0;
+      padding: 0;
+      color: #4a2600;
+    }
+
+    header {
+      background-color: #ffb84d;
+      color: #4a2600;
+      padding: 20px 0;
+      font-size: 26px;
+      font-weight: bold;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin: 30px;
+    }
+
+    .galeria img {
+      width: 250px;
+      height: 180px;
+      border-radius: 15px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    .descripcion {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    a.volver {
+      display: inline-block;
+      margin: 30px 0;
+      padding: 10px 20px;
+      background-color: #ff8000;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    a.volver:hover {
+      background-color: #cc6600;
+    }
+  </style>
+</head>
+<body>
+  <header>Visitas del Club</header>
+
+  <div class="descripcion">
+    Durante el último año, el Club de Ciencias Jorge Bosco Lescano visitó la escuela primaria <b>Jerónimo del Barco</b>, compartiendo con los más pequeños diversos proyectos desarrollados a lo largo del ciclo.  
+    Entre ellos se destacaron el <b>Girasol automático</b>, el <b>comedero inteligente</b> y otros inventos realizados por los integrantes del club.  
+    Además, los alumnos recibieron un cálido reconocimiento por su labor y compromiso con la ciencia y la educación técnica.
+  </div>
+
+  <div class="galeria">
+    <img src="mini2.jpg" alt="Visita Mini Club 2">
+    <img src="proyecto minis.jpg" alt="Proyecto Mini Club">
+    <img src="proyecto minis2.jpg" alt="Proyecto Mini Club 2">
+    <img src="reconocimiento minis.jpg" alt="Reconocimiento Mini Club">
+  </div>
+
+  <a href="index.html" class="volver">⬅ Volver al inicio</a>
+</body>
+</html>
