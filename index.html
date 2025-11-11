@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Revista Científica - Club Jorge Bosco Lescano</title>
+  <title>ConCiencia - Revista Científica</title>
   <style>
     body {
       font-family: "Segoe UI", Arial, sans-serif;
@@ -11,6 +11,7 @@
       background: linear-gradient(180deg, #ffcc66, #ff9966);
       margin: 0;
       padding: 0;
+      color: #4a2600;
     }
 
     header {
@@ -22,11 +23,28 @@
       box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     }
 
+    .logo {
+      width: 120px;
+      margin-top: 15px;
+    }
+
+    h1 {
+      margin: 10px 0 5px 0;
+      font-size: 40px;
+      letter-spacing: 2px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
     .contenedor {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 80vh;
+      height: 60vh;
     }
 
     .boton {
@@ -60,11 +78,23 @@
       font-weight: bold;
       letter-spacing: 1px;
     }
+
+    footer {
+      margin-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    footer img {
+      width: 200px;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
   <header>
-    Revista Científica - Club de Ciencias Jorge Bosco Lescano
+    <img src="logoclub.png" alt="Logo Club" class="logo">
+    <h1>ConCiencia</h1>
+    <h2>Club de Ciencias “Jorge Bosco Lescano”</h2>
   </header>
 
   <div class="contenedor">
@@ -73,5 +103,9 @@
       <p>Visitas</p>
     </a>
   </div>
+
+  <footer>
+    <img src="escudos.png" alt="Escudos del colegio">
+  </footer>
 </body>
 </html>
