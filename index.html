@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ConCiencia - Revista Científica</title>
+  <title>Revista Científica - ConCiencia</title>
   <style>
     body {
       font-family: "Segoe UI", Arial, sans-serif;
@@ -23,20 +23,28 @@
       box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     }
 
-    .logo {
-      width: 120px;
-      margin-top: 15px;
+    .logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 10px;
+    }
+
+    .logos img {
+      height: 100px;
+      width: auto;
     }
 
     h1 {
       margin: 10px 0 5px 0;
-      font-size: 40px;
-      letter-spacing: 2px;
+      font-size: 36px;
+      letter-spacing: 1.5px;
     }
 
     h2 {
       margin: 0;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: normal;
     }
 
@@ -72,40 +80,40 @@
     }
 
     .boton p {
-      background-color: #ff8000;
-      margin: 0;
-      padding: 15px;
+      margin: 10px;
       font-weight: bold;
-      letter-spacing: 1px;
     }
 
     footer {
-      margin-top: 20px;
+      margin-top: 30px;
       padding-bottom: 20px;
     }
 
     footer img {
-      width: 200px;
-      margin-top: 10px;
+      width: 160px;
+      opacity: 0.9;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="logoclub.png" alt="Logo Club" class="logo">
-    <h1>ConCiencia</h1>
-    <h2>Club de Ciencias “Jorge Bosco Lescano”</h2>
+    <div class="logos">
+      <img src="logoclub.png" alt="Logo del Club ConCiencia">
+      <img src="escudos.png" alt="Escudo del Colegio Jorge Vosco Lescano">
+    </div>
+    <h1>Revista Científica - ConCiencia</h1>
+    <h2>Club de Ciencias del Colegio Jorge Vosco Lescano</h2>
   </header>
 
   <div class="contenedor">
     <a href="visitas.html" class="boton">
-      <img src="minis3.jpg" alt="Visitas">
-      <p>Visitas</p>
+      <img src="minis3.jpg" alt="Visita al Mini Club">
+      <p>Proyecto Mini Club</p>
     </a>
   </div>
 
   <footer>
-    <img src="escudos.png" alt="Escudos del colegio">
+    <img src="escudos.png" alt="Escudo del Colegio Jorge Vosco Lescano">
   </footer>
 </body>
 </html>
