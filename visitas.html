@@ -9,12 +9,13 @@
       font-family: 'Poppins', sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #ffa500, #fff176);
-      color: #333;
+      background: linear-gradient(135deg, #ffa726, #fff176);
+      color: #3e2723;
+      min-height: 100vh;
     }
 
     header {
-      background-color: #ffb300;
+      background-color: #ff9800;
       color: white;
       text-align: center;
       padding: 1.5rem;
@@ -26,10 +27,10 @@
     .contenido {
       text-align: center;
       padding: 2rem;
-      background-color: rgba(255, 255, 255, 0.3);
       margin: 2rem auto;
       width: 90%;
-      max-width: 900px;
+      max-width: 1000px;
+      background-color: rgba(255, 255, 255, 0.2);
       border-radius: 20px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     }
@@ -48,37 +49,28 @@
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 15px;
+      gap: 20px;
     }
 
     .galeria img {
-      width: 240px;
-      height: 240px;
+      width: 230px;
+      height: 230px;
       object-fit: cover;
       border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .galeria img:hover {
       transform: scale(1.05);
-      box-shadow: 0 6px 14px rgba(0,0,0,0.4);
-    }
-
-    footer {
-      background-color: #ffb300;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 3rem;
-      font-weight: bold;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.4);
     }
 
     a.boton-volver {
       display: inline-block;
       background-color: #008f39;
       color: white;
-      padding: 12px 22px;
+      padding: 12px 25px;
       border-radius: 12px;
       text-decoration: none;
       font-weight: bold;
@@ -90,6 +82,16 @@
       background-color: #006b2e;
       transform: scale(1.05);
     }
+
+    footer {
+      background-color: #ff9800;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+      font-weight: bold;
+      box-shadow: 0 -3px 8px rgba(0,0,0,0.2);
+    }
   </style>
 </head>
 <body>
@@ -97,15 +99,15 @@
 
   <div class="contenido">
     <p>
-      El Club <strong>ConCiencia</strong> realizó una hermosa visita a la escuela primaria 
-      <strong>Jerónimo del Barco</strong>, donde compartimos experiencias, charlas y demostraciones 
-      de proyectos como el girasol automático y el comedero inteligente.  
-      Gracias al entusiasmo de los estudiantes, ¡decidieron crear su propio club de ciencia!
+      El Club <strong>ConCiencia</strong> realizó una visita a la escuela primaria 
+      <strong>Jerónimo del Barco</strong>, donde compartimos nuestras experiencias y mostramos los 
+      proyectos desarrollados a lo largo del año.  
+      Gracias al entusiasmo de los estudiantes, ¡decidieron formar su propio club de ciencia!
     </p>
 
     <div class="galeria">
-      <img src="minis3.jpg" alt="Visita a Jerónimo del Barco">
-      <img src="pines mini2.jpg" alt="Intercambio entre estudiantes">
+      <img src="minis3.jpg" alt="Visita Jerónimo del Barco">
+      <img src="pines minis2.jpg" alt="Pines del Club ConCiencia">
       <img src="proyecto minis.jpg" alt="Charlas del Club ConCiencia">
       <img src="proyecto minis2.jpg" alt="Alumnos participando">
       <img src="reconocimiento minis.jpg" alt="Reconocimiento al Club ConCiencia">
