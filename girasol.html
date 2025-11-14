@@ -4,21 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Girasol</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff176; /* amarillo claro */
+            color: #3e2723;
+        }
+
+        header {
+            background-color: #ffb300;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        }
+
+        .contenedor {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 17px;
+            margin-bottom: 25px;
+        }
+
+        /* GALERÍA */
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .galeria img {
+            width: 280px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
 </head>
 <body>
 
-<header>
-    <img src="logo.png" alt="Logo" class="logo">
-    <h1>Proyecto Girasol</h1>
-</header>
+<header>Proyecto Girasol</header>
 
-<section class="content">
-    <img src="girasol.jpg" alt="Proyecto Girasol" class="main-image">
-    <p>Descripción breve del Proyecto Girasol.</p>
-</section>
+<div class="contenedor">
 
-<a href="index.html" class="back-btn">Volver</a>
+    <h2>Proyecto Girasol</h2>
 
-</body>
-</html>
+    <p>
+        Este proyecto consiste en un panel solar que aprovecha la mayor cantidad de luz posible,
+        tomando como referencia el comportamiento natural del girasol.  
+        El sistema permite que el panel siga la trayectoria del sol para mejorar la eficiencia energética
+        durante todo el día.
+    </p>
+
+    <div class="galeria">
+        <img src="giraSol2.jpg" alt="Girasol 2">
+        <img src="giraSol.jpeg" alt="Girasol">
+        <img src="giraSol1.jpeg" alt="Girasol 1">
+    </div>
