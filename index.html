@@ -9,7 +9,7 @@
       font-family: 'Poppins', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #fff176; /* amarillo intenso */
+      background-color: #fff176;
       color: #3e2723;
       min-height: 100vh;
     }
@@ -22,8 +22,8 @@
       box-shadow: 0 3px 8px rgba(0,0,0,0.2);
       display: flex;
       align-items: center;
-      justify-content: space-between; /* título a la izquierda, logo a la derecha */
-      flex-wrap: wrap; /* permite que en móviles se ajuste */
+      justify-content: space-between;
+      flex-wrap: wrap;
     }
 
     .header-title {
@@ -33,7 +33,7 @@
     .logo-club {
       width: 60px;
       height: auto;
-      flex-shrink: 0; /* evita que el logo se encoja demasiado */
+      flex-shrink: 0;
     }
 
     .bloques {
@@ -90,11 +90,10 @@
     }
 
     footer img {
-      width: 20px; /* escudo pequeño */
+      width: 20px;
       height: auto;
     }
 
-    /* Media queries para pantallas pequeñas */
     @media (max-width: 480px) {
       .header-title {
         font-size: 1.5rem;
@@ -119,22 +118,25 @@
   </header>
 
   <div class="bloques">
+
+    <!-- Proyectos que ya tenías -->
     <a href="visitas.html" class="bloque">
-      <img src="minis3.jpg" alt="Visitas del Club ConCiencia">
+      <img src="minis3.jpg" alt="Visitas">
       <p>Visita a la Escuela Jerónimo del Barco</p>
     </a>
 
     <a href="saludmental.html" class="bloque">
-      <img src="charlasanamente.jpg" alt="Proyecto SanaMente">
+      <img src="charlasanamente.jpg" alt="SanaMente">
       <p>Proyecto SanaMente</p>
     </a>
+
     <a href="plasticos3d.html" class="bloque">
-      <img src="plasticos3d3.jpeg" alt="Proyecto Plásticos 3D">
+      <img src="plasticos3d3.jpeg" alt="Plásticos 3D">
       <p>Proyecto Plásticos 3D</p>
     </a>
 
     <a href="movimientoinfinito.html" class="bloque">
-      <img src="movimientoinfinito3.jpeg" alt="Proyecto Movimiento Infinito">
+      <img src="movimientoinfinito3.jpeg" alt="Movimiento Infinito">
       <p>Proyecto Movimiento Infinito</p>
     </a>
 
@@ -143,11 +145,23 @@
       <p>Proyecto Girasol</p>
     </a>
 
+    <!-- NUEVO: Mural del Club -->
+    <a href="mural.html" class="bloque">
+      <img src="inicio mural del club.jpg" alt="Mural del Club">
+      <p>Mural del Club</p>
+    </a>
+
+    <!-- NUEVO: Recaudación -->
+    <a href="recaudacion.html" class="bloque">
+      <img src="recaudacion club 1.jpg" alt="Recaudación">
+      <p>Recaudación</p>
+    </a>
+
   </div>
 
   <footer>
     <span>Club ConCiencia® 2025, todos los derechos reservados</span>
-    <img src="escudoesc.png" alt="Escudo del Club">
+    <img src="escudoesc.png" alt="Escudo">
   </footer>
 </body>
 </html>
