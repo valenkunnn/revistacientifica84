@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes del Club</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffeb72;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fff3a0;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #00000033;
+        }
+        header img {
+            height: 60px;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        /* Botones de viajes */
+        .botones {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            padding: 20px;
+        }
+        .card {
+            width: 260px;
+            background-color: #fff8c6;
+            border-radius: 15px;
+            box-shadow: 0px 0px 8px #00000033;
+            text-align: center;
+            overflow: hidden;
+            border: 2px solid #00000033;
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 10px 0;
+            color: #222;
+        }
+        .card a {
+            display: block;
+            text-decoration: none;
+            background-color: #ffe066;
+            color: #000;
+            padding: 10px;
+            font-weight: bold;
+            border-top: 2px solid #00000033;
+        }
+        .volver {
+            display: block;
+            margin: 20px auto;
+            width: 180px;
+            text-align: center;
+            padding: 10px;
+            background-color: #fff176;
+            border: 2px solid #000;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 14px;
+            padding: 10px;
+            background-color: #fff3a0;
+            border-top: 2px solid #00000033;
+            position: relative;
+        }
+        footer img {
+            position: absolute;
+            right: 10px;
+            top: 8px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>Club de Ciencia Conciencia ®</h2>
+    <img src="logoclub.png" alt="Logo del Club">
+</header>
+
+<h1>Viajes del Club</h1>
+
+<div class="botones">
+
+    <!-- Botón Pilar -->
+    <div class="card">
+        <img src="viaje conae4.jpg" alt="Pilar (sin fotos)">
+        <h3>Pilar</h3>
+        <a href="pilar.html">Ver más</a>
+    </div>
+
+    <!-- Botón CONAE -->
+    <div class="card">
+        <img src="viaje conae4.jpg" alt="CONAE Portada">
+        <h3>CONAE</h3>
+        <a href="conae.html">Ver más</a>
+    </div>
+
+</div>
+
+<a class="volver" href="index.html">⬅ Volver</a>
+
+<footer>
+    Club de Ciencia Conciencia 2025 — Todos los derechos reservados
+    <img src="escudoesc.png" alt="Escudo">
+</footer>
+
+</body>
+</html>
