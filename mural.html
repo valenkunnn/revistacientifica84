@@ -1,59 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mural del Club</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #fff7c2; /* amarillo claro */
-            margin: 0;
-            padding: 0;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mural del Club</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff176;
+      color: #3e2723;
+    }
 
-        header {
-            background-color: #ffd739;
-            padding: 20px;
-            text-align: center;
-            color: black;
-            font-size: 28px;
-            font-weight: bold;
-        }
+    header {
+      background-color: #ffb300;
+      color: white;
+      padding: 1.5rem;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
 
-        .contenedor {
-            max-width: 900px;
-            margin: 40px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.15);
-            text-align: center;
-        }
+    .logo-club { width: 60px; }
 
-        img {
-            width: 100%;
-            max-width: 700px;
-            border-radius: 12px;
-            margin-top: 20px;
-        }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: rgba(255,255,255,0.5);
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
 
-        p {
-            font-size: 18px;
-            margin-top: 15px;
-        }
-    </style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 250px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover { transform: scale(1.05); }
+
+    a.volver {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #ffb300;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    a.volver:hover { background-color: #ffa000; }
+  </style>
 </head>
 <body>
 
-    <header>Mural del Club</header>
+<header>
+  <span>Mural del Club</span>
+  <img src="logoclub.png" class="logo-club" alt="Logo del Club">
+</header>
 
-    <div class="contenedor">
-        <h2>Proyecto Mural del Club</h2>
-        <p>Te mostramos el avance del mural del club.</p>
+<div class="container">
+  <p>
+    O mural do Club ConCiencia representa o espírito creativo e colaborativo dos estudantes.
+    Está en constante crecemento e reúne expresión artística, identidade institucional e mensaxes que inspiran a toda a comunidade educativa.
+  </p>
 
-        <img src="inicio mural del club.jpg" alt="Mural del Club">
-    </div>
+  <div class="gallery">
+    <img src="muralclub.jpg">
+    <img src="muralclub1.jpg">
+    <img src="muralclub2.jpg">
+    <img src="inicio mural del club.jpg">
+  </div>
+
+  <a href="index.html" class="volver">⬅ Volver al inicio</a>
+</div>
 
 </body>
 </html>
