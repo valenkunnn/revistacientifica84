@@ -9,7 +9,7 @@
       font-family: 'Poppins', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #fff176;
+      background-color: #fff176; /* amarillo intenso */
       color: #3e2723;
       min-height: 100vh;
     }
@@ -33,6 +33,7 @@
     .logo-club {
       width: 60px;
       height: auto;
+      flex-shrink: 0;
     }
 
     .bloques {
@@ -86,97 +87,101 @@
       align-items: center;
       justify-content: space-between;
       font-size: 0.9rem;
+      position: relative;
     }
 
     footer img {
       width: 20px;
       height: auto;
+      position: absolute;
+      right: 10px;
+      top: 8px;
     }
 
     @media (max-width: 480px) {
       .header-title {
         font-size: 1.5rem;
+        margin-bottom: 0.5rem;
         width: 100%;
         text-align: center;
       }
-      header {
-        justify-content: center;
-      }
       .logo-club {
         width: 50px;
+        margin: 0 auto;
+      }
+      header {
+        justify-content: center;
       }
     }
   </style>
 </head>
 <body>
+  <header>
+    <span class="header-title">Revista Científica del Club ConCiencia</span>
+    <img src="logoclub.png" alt="Logo del Club" class="logo-club">
+  </header>
 
-<header>
-  <span class="header-title">Revista Científica del Club ConCiencia</span>
-  <img src="logoclub.png" alt="Logo del Club" class="logo-club">
-</header>
+  <div class="bloques">
 
-<div class="bloques">
+    <!-- Visitas -->
+    <a href="visitas.html" class="bloque">
+      <img src="minis3.jpg" alt="Visitas del Club ConCiencia">
+      <p>Visita a la Escuela Jerónimo del Barco</p>
+    </a>
 
-  <!-- VISITAS -->
-  <a href="visitas.html" class="bloque">
-    <img src="minis3.jpg" alt="Visitas">
-    <p>Visitas</p>
-  </a>
+    <!-- SanaMente -->
+    <a href="saludmental.html" class="bloque">
+      <img src="charlasanamente.jpg" alt="Proyecto SanaMente">
+      <p>Proyecto SanaMente</p>
+    </a>
 
-  <!-- SANAMENTE -->
-  <a href="saludmental.html" class="bloque">
-    <img src="charlasanamente.jpg" alt="SanaMente">
-    <p>Proyecto SanaMente</p>
-  </a>
+    <!-- Plásticos 3D -->
+    <a href="plasticos3d.html" class="bloque">
+      <img src="plasticos3d3.jpeg" alt="Plásticos 3D">
+      <p>Proyecto Plásticos 3D</p>
+    </a>
 
-  <!-- PLÁSTICOS 3D -->
-  <a href="plasticos3d.html" class="bloque">
-    <img src="plasticos3d.jpg" alt="Plásticos 3D">
-    <p>Plásticos 3D</p>
-  </a>
+    <!-- Movimiento Infinito -->
+    <a href="movimientoinfinito.html" class="bloque">
+      <img src="movimientoinfinito3.jpeg" alt="Movimiento Infinito">
+      <p>Proyecto Movimiento Infinito</p>
+    </a>
 
-  <!-- GIRASOL -->
-  <a href="girasol.html" class="bloque">
-    <img src="girasol.jpg" alt="Girasol">
-    <p>Proyecto Girasol</p>
-  </a>
+    <!-- Girasol -->
+    <a href="girasol.html" class="bloque">
+      <img src="giraSol2.jpg" alt="Proyecto Girasol">
+      <p>Proyecto Girasol</p>
+    </a>
 
-  <!-- MOVIMIENTO INFINITO -->
-  <a href="movimientoinfinito.html" class="bloque">
-    <img src="minf1.jpg" alt="Movimiento Infinito">
-    <p>Movimiento Infinito</p>
-  </a>
+    <!-- Recaudación -->
+    <a href="recaudacion.html" class="bloque">
+      <img src="recaudacion club 1.jpg" alt="Recaudación">
+      <p>Recaudación del Club</p>
+    </a>
 
-  <!-- MURAL -->
-  <a href="mural.html" class="bloque">
-    <img src="muralclub2.jpg" alt="Mural del Club">
-    <p>Mural del Club</p>
-  </a>
+    <!-- Mural -->
+    <a href="mural.html" class="bloque">
+      <img src="muralclub2.jpg" alt="Mural del Club">
+      <p>Mural del Club</p>
+    </a>
 
-  <!-- RECAUDACIÓN -->
-  <a href="recaudacion.html" class="bloque">
-    <img src="recaudacion club.jpg" alt="Recaudación">
-    <p>Recaudación</p>
-  </a>
+    <!-- Viajes del Club -->
+    <a href="viajes.html" class="bloque">
+      <img src="viaje conae4.jpg" alt="Viajes del Club">
+      <p>Viajes del Club</p>
+    </a>
 
-  <!-- VIAJES -->
-  <a href="viajes.html" class="bloque">
-    <img src="viaje conae4.jpg" alt="Viajes del Club">
-    <p>Viajes del Club</p>
-  </a>
+    <!-- ComeDog -->
+    <a href="comedog.html" class="bloque">
+      <img src="comedog.jpg" alt="ComeDog">
+      <p>Proyecto ComeDog</p>
+    </a>
 
-  <!-- COMEDOG -->
-  <a href="comedog.html" class="bloque">
-    <img src="comedog.jpg" alt="ComeDog">
-    <p>ComeDog</p>
-  </a>
+  </div>
 
-</div>
-
-<footer>
-  <span>Club ConCiencia® 2025 — Todos los derechos reservados</span>
-  <img src="escudoesc.png" alt="Escudo">
-</footer>
-
+  <footer>
+    <span>Club ConCiencia® 2025, todos los derechos reservados</span>
+    <img src="escudoesc.png" alt="Escudo del Club">
+  </footer>
 </body>
 </html>
