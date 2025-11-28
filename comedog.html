@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto ComeDog</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff176;
+      color: #3e2723;
+    }
+
+    header {
+      background-color: #ffb300;
+      color: white;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+
+    .logo-club { width: 60px; }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: rgba(255,255,255,0.5);
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 260px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover { transform: scale(1.05); }
+
+    a.volver {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      background-color: #ffb300;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    a.volver:hover { background-color: #ffa000; }
+  </style>
+</head>
+<body>
+
+<header>
+  <span>Proyecto ComeDog</span>
+  <img src="logoclub.png" alt="Logo del Club" class="logo-club">
+</header>
+
+<div class="container">
+  <h2>Comedero Automático ComeDog</h2>
+  <p>
+    El ComeDog es un comedero automático con monitoreo que busca el bienestar integral
+    de la mascota cuando se encuentra sola, evitando problemas de salud mental que pueden
+    derivar en problemas físicos a largo plazo.  
+    Este proyecto combina automatización, seguridad y amor por los animales.
+  </p>
+
+  <div class="gallery">
+    <img src="comedog.jpg">
+    <img src="comedog1.jpg">
+    <img src="comedog2.jpg">
+    <img src="comedog3.jpg">
+    <img src="comedog4.jpg">
+  </div>
+
+  <a href="index.html" class="volver">⬅ Volver al inicio</a>
+</div>
+
+</body>
+</html>
